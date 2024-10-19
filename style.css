@@ -1,0 +1,68 @@
+*{
+  margin: 0%;
+  padding: 0%;
+}
+
+body{
+    background-color: #BCF4DE;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.heading{
+    font-size: 2rem;
+    padding: 2%;
+}
+.mac{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vmin;
+    width: 60vmin;
+    
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 48vmin;
+    width: 58vmin;
+    border: solid black;
+    background-color:#EEC6CA;
+}
+.main input{
+    height: 7vmin;
+    width: 38vmin;
+    margin: 2vmin;
+    border-radius: 10%;
+}
+.ch img{
+    height: 4vmin;
+}
+.from , .to{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.to select, .from select{
+    height: 7vmin;
+    border-radius: 15%;
+}
+.divid{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+}
+button{
+    height: 7vmin;
+    width: 14vmin;
+    background-color: #DED6D1;
+    cursor: pointer;
+    border-radius:10%;
+}
+button:hover{
+    background-color: antiquewhite;
+}
